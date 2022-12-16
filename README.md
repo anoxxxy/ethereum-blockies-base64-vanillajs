@@ -16,7 +16,8 @@ A tiny vanillajs library for generating blocky identicons as base64 encoded PNGs
 ```
 
 ### Vanilla JS
-```var img = new Image();
+```
+var img = new Image();
 img.src = makeBlockie('0x7cB57B5A97eAbe94205C07890BE4c1aD31E486A8');
 
 document.body.appendChild(img);
